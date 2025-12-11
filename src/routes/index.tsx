@@ -6,10 +6,10 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         name: "description",
-        content: "My App is a web application",
+        content: "A simple code-breaking game app built with TanStack Router and TanStack DB.",
       },
       {
-        title: "My App",
+        title: "CodeBreaker | Home",
       },
     ],
   }),
