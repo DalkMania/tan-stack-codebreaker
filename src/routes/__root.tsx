@@ -3,7 +3,7 @@ import { BaseLayout } from "@/components/layout/RootLayout";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 
 const RootLayout = () => (
-  <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+  <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
     <BaseLayout>
       <HeadContent />
       <Outlet />

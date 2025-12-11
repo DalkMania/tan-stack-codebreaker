@@ -1,5 +1,5 @@
 import { Link, useLocation } from "@tanstack/react-router";
-
+import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   NavigationMenu as Nav,
   NavigationMenuItem,
@@ -16,14 +16,12 @@ export const NavigationMenu = () => {
     <Nav>
       <NavigationMenuList>
         <NavigationMenuItem className="mr-4">
-          <NavigationMenuLink asChild data-active={pathName === "/"}>
-            <Link to="/">Home</Link>
-          </NavigationMenuLink>
-        </NavigationMenuItem>
-        <NavigationMenuItem className="mr-4">
           <NavigationMenuLink asChild data-active={pathName === "/about"}>
             <Link to="/about">About</Link>
           </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem className="mr-4">
+          <ThemeToggle />
         </NavigationMenuItem>
       </NavigationMenuList>
     </Nav>
