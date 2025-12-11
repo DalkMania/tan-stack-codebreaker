@@ -21,8 +21,6 @@ export const CreateCode = () => {
   useEffect(() => {
     const encrypted = getSymbolsForLetters();
     if (!data && !isReady) return;
-    console.log("data", data);
-    //console.log("ready", isReady);
 
     if (isReady && data === undefined) {
       messageStateCollection.insert({
