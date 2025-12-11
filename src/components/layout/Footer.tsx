@@ -15,11 +15,12 @@ export const Footer = () => {
           <TextLogo />
         </div>
         <p className="mt-4 text-sm">
-          <strong>Recipe</strong>Haven is a sample project for a recipe sharing platform. Where users can publish and
-          share their recipes.
+          <strong>Code</strong>Breaker is a sample project for a simple Code-Breaking Game. Basically an automated way
+          to create little "code-breaking" worksheets where each letter in a secret message is represented as a symbol.
+          Kids can then refer to an alphabet lookup table, and perform the translation.
         </p>
 
-        <p className="mt-4 text-sm">Built with React, TypeScript, TanStack Router and Tailwind CSS.</p>
+        <p className="mt-4 text-sm">Built with React, TypeScript, TanStack Router, TanStack DB and Tailwind CSS.</p>
       </div>
       <div className="flex gap-2 items-center justify-center w-full">
         <ReactBadge />
