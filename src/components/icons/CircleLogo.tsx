@@ -1,0 +1,64 @@
+type CircleLogoProps = {
+  width?: number;
+  height?: number;
+};
+
+export const CircleLogo = ({ width = 45, height = 45 }: CircleLogoProps) => {
+  return (
+    <svg width={width} height={height} viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M45 90C69.8528 90 90 69.8528 90 45C90 20.1472 69.8528 0 45 0C20.1472 0 0 20.1472 0 45C0 69.8528 20.1472 90 45 90Z"
+        fill="url(#paint0_linear_2001_11)"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M81.002 72.002C73.2186 77.8566 63.7394 81.0153 54 81C29.147 81 9 60.853 9 36C8.98457 26.2605 12.1434 16.7813 17.998 8.99799C7.069 17.208 0 30.278 0 45C0 69.853 20.147 90 45 90C59.722 90 72.792 82.93 81.002 72.002Z"
+        fill="url(#paint1_linear_2001_11)"
+      />
+      <path
+        d="M45 65C58.8071 65 70 53.8071 70 40C70 26.1929 58.8071 15 45 15C31.1929 15 20 26.1929 20 40C20 53.8071 31.1929 65 45 65Z"
+        fill="white"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M64.486 55.664C60.6904 57.8562 56.3832 59.007 52 59C38.193 59 27 47.807 27 34C27 28.07 29.065 22.622 32.514 18.336C25.034 22.656 20 30.741 20 40C20 53.807 31.193 65 45 65C52.877 65 59.903 61.357 64.486 55.664Z"
+        fill="black"
+        fillOpacity="0.05"
+      />
+      <path
+        d="M50.5 44C55.7467 44 60 39.7467 60 34.5C60 29.2533 55.7467 25 50.5 25C45.2533 25 41 29.2533 41 34.5C41 39.7467 45.2533 44 50.5 44Z"
+        fill="#2D2D2D"
+      />
+      <path
+        d="M55 34C57.2091 34 59 32.2091 59 30C59 27.7909 57.2091 26 55 26C52.7909 26 51 27.7909 51 30C51 32.2091 52.7909 34 55 34Z"
+        fill="white"
+      />
+      <path
+        d="M41 73C41 73 42.112 76 45.5 76C48.888 76 50 73 50 73"
+        stroke="white"
+        strokeWidth="2.294"
+        strokeLinecap="round"
+        strokeLinejoin="bevel"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2001_11"
+          x1="90"
+          y1="41.447"
+          x2="0"
+          y2="41.447"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#F44881" />
+          <stop offset="1" stopColor="#EC454F" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_2001_11" x1="2.5" y1="113" x2="41" y2="27" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#D04070" />
+          <stop offset="1" stopColor="#EC454F" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
