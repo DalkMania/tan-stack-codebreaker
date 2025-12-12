@@ -13,7 +13,7 @@ export const CodeMessage = () => {
   return (
     <div className="text-center flex flex-wrap gap-8 mt-auto">
       {words.map((word, wordIndex) => (
-        <div key={wordIndex} className="word flex flex-wrap gap-4 justify-center">
+        <div key={wordIndex} className="word flex flex-wrap gap-2 justify-center">
           {word
             .toLowerCase()
             .split("")
