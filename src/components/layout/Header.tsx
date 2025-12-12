@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <header
       id="masthead"
-      className={` sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 transition-all delay-150 duration-200 ease-in-out ${
+      className={` sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 ${
         !isSticky ? defaultClasses : stickyClasses
       }`}
       role="banner"

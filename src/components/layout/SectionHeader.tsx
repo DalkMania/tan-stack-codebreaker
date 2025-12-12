@@ -9,7 +9,7 @@ const SectionHeader = ({ headerText, headingTag }: SectionHeaderProps) => {
   const Heading = createElement(headingTag, null, headerText);
   return (
     <div className="section-header prose lg:prose-xl py-12 w-full max-w-none!">
-      <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12 block"></span>
+      <span className="w-20 h-2 bg-foreground mb-12 block"></span>
       {Heading}
     </div>
   );

@@ -24,7 +24,13 @@ export const CodeMessage = () => {
                   <span key={charIndex} className="material-symbols-outlined character text-5xl! uppercase">
                     {encryptedChar}
                   </span>
-                  <div className={encryptedChar.match(regex) ? `bg-gray-200 w-12 h-12` : `w-12 h-12`}></div>
+                  <div
+                    className={
+                      encryptedChar.match(regex)
+                        ? `bg-gray-200 w-12 h-12 print:bg-white print:border-b-4 print:border-black`
+                        : `w-12 h-12 print:bg-white`
+                    }
+                  ></div>
                 </div>
               );
             })}
